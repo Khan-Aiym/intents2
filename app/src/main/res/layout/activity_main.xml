@@ -10,7 +10,6 @@
 
 
     <EditText
-
         app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/gmail"
         android:layout_width="match_parent"
@@ -19,9 +18,8 @@
         android:layout_marginBottom="4dp"
         android:hint="gmail_com"
         android:inputType="textEmailAddress"
-
         android:textStyle="bold"
-         />
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/theme"
